@@ -7,8 +7,7 @@ class ColorPalette extends StatelessWidget {
       required this.baseColor1,
       required this.baseColor2,
       required this.baseColor3,
-      required this.baseColor4,
-      required this.callback
+      required this.baseColor4
       // así se reciben en el constructor, por ejemplo
       //required this.baseColor,
       })
@@ -18,7 +17,6 @@ class ColorPalette extends StatelessWidget {
   final String baseColor2;
   final String baseColor3;
   final String baseColor4;
-  final Function(String) callback;
 
   // atributos de la clase, por ejemplo
   //final String baseColor;
