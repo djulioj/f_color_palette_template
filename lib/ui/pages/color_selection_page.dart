@@ -27,7 +27,7 @@ class ColorSelectionPage extends StatelessWidget {
         ),
         // https://colorhunt.co/
         body: SafeArea(
-            child:  SingleChildScrollView(
+            child: SingleChildScrollView(
           child: Column(children: const [
             ColorPalette(
                 baseColor1: '698269',
@@ -58,7 +58,7 @@ class ColorSelectionPage extends StatelessWidget {
                 baseColor1: '03001C',
                 baseColor2: '301E67',
                 baseColor3: '5B8FB9',
-                baseColor4: 'B6EADA',
+                baseColor4: 'B6EADA'),
           ]),
         )));
   }
